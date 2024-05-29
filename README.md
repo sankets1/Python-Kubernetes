@@ -14,3 +14,6 @@ Step 3:
 Run python file with command
 For Linux
 python3 app.py 
+
+
+For Task3 we have to dockerize the application and deploy it on minikube.
