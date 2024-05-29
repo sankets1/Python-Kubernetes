@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Minikube Cluster IP</title>
+</head>
+<body>
+    <h1>Minikube Cluster IP</h1>
+    {% if cluster_ip %}
+        <p>The Cluster IP is: {{ cluster_ip }}</p>
+    {% else %}
+        <p>Cluster IP not found.</p>
+    {% endif %}
+</body>
+</html>
