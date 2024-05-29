@@ -22,7 +22,7 @@ rendered_manifest = template.render(user_inputs)
 # Print the rendered manifest (for debugging)
 print(rendered_manifest)
 
-# Load the Kubernetes configuration (assumes you have Minikube set up)
+# Load the Kubernetes configuration
 config.load_kube_config()
 
 # Create a Kubernetes client
